@@ -1,0 +1,50 @@
+/*.container {
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 100vh;
+  background: lightblue;
+}
+input[name="task"] {
+  border: 4px solid black;
+}
+#createTaskButton {
+  display: inline-block;
+  background-color: darkolivegreen;
+  color: white;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.validStyle {
+  border-color: green;
+}
+
+.invalidStyle {
+  border-color: red;
+}
+
+.slider {
+  width: 300px;
+  height: 15px;
+  margin: 5px;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.thumb {
+  width: 10px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: red;
+  cursor: pointer;
+  left: 0px;
+  top: -5px;
+  position: relative;
+}
+
+#elem {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}*/
