@@ -1,50 +1,31 @@
-/*.container {
-  margin: 0 auto;
-  max-width: 600px;
-  min-height: 100vh;
-  background: lightblue;
+body {
+  text-align: center;
 }
-input[name="task"] {
-  border: 4px solid black;
-}
-#createTaskButton {
-  display: inline-block;
-  background-color: darkolivegreen;
-  color: white;
-  box-sizing: border-box;
-  padding: 10px 20px;
-  cursor: pointer;
+.currentImage {
 }
 
-.validStyle {
-  border-color: green;
+.nextImage {
 }
 
-.invalidStyle {
-  border-color: red;
+.carousel {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.slider {
-  width: 300px;
-  height: 15px;
-  margin: 5px;
-  background-color: gray;
-  border-radius: 5px;
-}
-
-.thumb {
-  width: 10px;
-  height: 25px;
-  border-radius: 3px;
-  background-color: red;
-  cursor: pointer;
-  left: 0px;
-  top: -5px;
+.imageWrapper {
   position: relative;
+  width: 30vw;
+  height: 30vh;
 }
 
-#elem {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}*/
+.slidesImg {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
