@@ -1,13 +1,13 @@
 body {
   text-align: center;
 }
-.currentImage {
-}
 
-.prevImage {
+.currentImage {
+  opacity: 1;
 }
 
 .nextImage {
+  opacity: 0;
 }
 
 .carousel {
@@ -15,13 +15,14 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.imageWrapper {
+
+.imgWrapper {
   position: relative;
   width: 30vw;
   height: 30vh;
 }
 
-.slidesImg {
+.slideImg {
   position: absolute;
   width: inherit;
   height: inherit;
